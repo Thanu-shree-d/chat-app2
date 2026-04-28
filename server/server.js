@@ -10,7 +10,7 @@ const server = http.createServer(app);
 
 const io = new Server(server, {
   cors: {
-    origin: "https://live-messaging-app-5c5q.onrender.com", //live-messaging-app-one.vercel.app
+    origin: "live-messaging-app-one.vercel.app", //live-messaging-app-one.vercel.app
     methods: ["GET", "POST"]
   }
 });
